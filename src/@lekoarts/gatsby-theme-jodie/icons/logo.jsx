@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from './logo.png';
+import Logo from './Logo.png';
 export default class Header extends Component {
   render() {
     return (
