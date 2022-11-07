@@ -14,7 +14,7 @@ module.exports = {
     siteTitleAlt: `Paul Matthew: Portfolio`,
     siteHeadline: `Portfolio`,
     siteUrl: `https://paul-matthew-portfolio.netlify.app/`,
-    siteDescription: `The proffesional portfolio of Paul Matthew Bachan`,
+    siteDescription: `The professional portfolio of Paul Matthew Bachan`,
     siteImage: `/night.png`,
     author: `Paul-Matthew`,
   },
