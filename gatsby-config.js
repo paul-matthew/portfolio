@@ -39,10 +39,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
-        description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
-        start_url: `/`,
+        name: `Paul Matthew Bachan Portfolio`,
+        short_name: `Paul Matthew`,
+        description: `Paul Matthew Bachan Portfolio`,
+        start_url: `https://paul-matthew-portfolio.netlify.app/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
