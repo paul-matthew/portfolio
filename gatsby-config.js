@@ -12,11 +12,11 @@ module.exports = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
     siteTitle: `PM`,
     siteTitleAlt: `Paul Matthew - Portfolio`,
-    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://jodie.lekoarts.de`,
-    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    siteHeadline: `Portfolio`,
+    siteUrl: `https://paul-matthew-portfolio.netlify.app/`,
+    siteDescription: `Paul Matthew Bachan Portfolio`,
     siteImage: `/android-chrome-192x192.png`,
-    author: `@lekoarts_de`,
+    author: `Paul-Matthew`,
   },
   plugins: [
     {
