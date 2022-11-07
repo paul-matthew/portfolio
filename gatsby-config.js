@@ -11,11 +11,11 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
     siteTitle: `PM`,
-    siteTitleAlt: `Paul Matthew - Portfolio`,
+    siteTitleAlt: `Paul Matthew: Portfolio`,
     siteHeadline: `Portfolio`,
     siteUrl: `https://paul-matthew-portfolio.netlify.app/`,
-    siteDescription: `Paul Matthew Bachan Portfolio`,
-    siteImage: `/android-chrome-192x192.png`,
+    siteDescription: `The proffesional portfolio of Paul Matthew Bachan`,
+    siteImage: `/night.png`,
     author: `Paul-Matthew`,
   },
   plugins: [
