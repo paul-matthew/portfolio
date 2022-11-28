@@ -1,3 +1,5 @@
-const modifyGrid = (data) => data
+import { filterBySlug } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
 
-export default modifyGrid
+const modifyGrid = (data) => filterBySlug(data, ["/about"]);
+
+export default modifyGrid;
