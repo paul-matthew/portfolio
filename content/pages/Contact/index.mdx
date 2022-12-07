@@ -16,22 +16,22 @@ cover: "./email4.jpg"
     <div class="mb-3">
       <input type="hidden" id="_next" value="http://localhost:8000/about/"/>  
       <input type="hidden" id="_subject" value="New Email!"/>
-      <label class="form-label" for="name"><b>Name</b>🤖</label>
-      <input class="form-control" id="name" type="text" placeholder="Name" required/>
+      <label class="form-label" for="name"><b>Name</b> 🤖 </label>
+      <input class="form-control" name="name" type="text" placeholder="Name" required/>
     </div>
 
     <div class="mb-3">
-      <label class="form-label" for="emailAddress"><b>Email</b>📧</label>
-      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" required/>
+      <label class="form-label" for="emailAddress"><b>Email</b> 📧 </label>
+      <input class="form-control" name="emailAddress" type="email" placeholder="Email Address" required/>
     </div>
     <div></div>
 
     <div class="mb-3">
-      <textarea class="form-control" id="message" type="text" placeholder="Message" style={{height: `10rem`, width:`20rem`, resize:`none`}} required></textarea>
+      <textarea class="form-control" name="message" type="text" placeholder="How can I help you?" style={{height: `10rem`, width:`20rem`, resize:`none`,margin: `5px`}} required></textarea>
     </div>
 
     <div class="d-grid">
-      <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+      <button class="btn btn-primary btn-lg" type="submit">**Submit**</button>
     </div>
 </form>
 
