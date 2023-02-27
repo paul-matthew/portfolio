@@ -4,7 +4,7 @@ import Layout from "@lekoarts/gatsby-theme-jodie/src/components/layout"
 const styles = {
   image: {
     textAlign: 'center',
-    backgroundImage:"url('./404.gif')"
+    backgroundImage:"url('https://freefrontend.com/assets/img/html-funny-404-pages/HTML-404-Error-Page.gif')"
   }
 };
 
