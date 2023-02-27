@@ -6,8 +6,7 @@ const styles = {
     textAlign: 'center',
     backgroundImage:"url('https://freefrontend.com/assets/img/html-funny-404-pages/HTML-404-Error-Page.gif')",
     backgroundRepeat: 'no-repeat',
-    width: '100vw',
-    height: '50vh'
+    width: '100%',
   }
 };
 
