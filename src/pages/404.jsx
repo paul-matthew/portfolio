@@ -7,6 +7,7 @@ const styles = {
     backgroundImage:"url('https://freefrontend.com/assets/img/html-funny-404-pages/HTML-404-Error-Page.gif')",
     backgroundRepeat: 'no-repeat',
     width: '100vw',
+    height:'auto',
   }
 };
 
