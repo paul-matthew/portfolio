@@ -42,7 +42,7 @@ module.exports = {
         name: `Paul Matthew Bachan Portfolio`,
         short_name: `Paul Matthew`,
         description: `Paul Matthew Bachan Portfolio`,
-        start_url: `https://paul-matthew-portfolio.netlify.app/`,
+        start_url: `https://day-break.netlify.app/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
