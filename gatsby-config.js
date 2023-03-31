@@ -10,11 +10,11 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `PM`,
-    siteTitleAlt: `Paul Matthew: Portfolio`,
+    siteTitle: `Day Break Designs`,
+    siteTitleAlt: `Day Break Designs: Portfolio`,
     siteHeadline: `Portfolio`,
     siteUrl: `https://paul-matthew-portfolio.netlify.app/`,
-    siteDescription: `The professional portfolio of Paul Matthew Bachan`,
+    siteDescription: `The professional portfolio of Day Break Designs`,
     siteImage: `/about-us-cover-image4.jpg`,
     author: `Paul-Matthew`,
   },
