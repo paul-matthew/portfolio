@@ -39,9 +39,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Paul Matthew Bachan Portfolio`,
-        short_name: `Paul Matthew`,
-        description: `Paul Matthew Bachan Portfolio`,
+        name: `Day Break Designs Portfolio`,
+        short_name: `Day Break`,
+        description: `Day Break Designs Portfolio`,
         start_url: `https://day-break.netlify.app/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
