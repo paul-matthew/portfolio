@@ -13,7 +13,7 @@ module.exports = {
     siteTitle: `Day Break Designs`,
     siteTitleAlt: `Day Break Designs: Portfolio`,
     siteHeadline: `Portfolio`,
-    siteUrl: `https://paul-matthew-portfolio.netlify.app/`,
+    siteUrl: `https://day-break.netlify.app/`,
     siteDescription: `The professional portfolio of Day Break Designs`,
     siteImage: `/about-us-cover-image4.jpg`,
     author: `Paul-Matthew`,
