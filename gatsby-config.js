@@ -39,7 +39,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Day Break Designs Portfolio`,
+        name: `Day Break Designs: Portfolio`,
         short_name: `Day Break`,
         description: `Day Break Designs Portfolio`,
         start_url: `https://day-break.netlify.app/`,
