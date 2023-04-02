@@ -11,7 +11,7 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
     siteTitle: `Day Break Designs`,
-    siteTitleAlt: `Day Break Designs: Portfolio`,
+    siteTitleAlt: `Day Break Designs`,
     siteHeadline: `Portfolio`,
     siteUrl: `https://day-break.netlify.app/`,
     siteDescription: `The professional portfolio of Day Break Designs`,
@@ -40,7 +40,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Day Break Designs: Portfolio`,
+        name: `Day Break Designs`,
         short_name: `Day Break`,
         description: `Day Break Designs Portfolio`,
         start_url: `https://day-break.netlify.app/`,
