@@ -3,38 +3,34 @@ title: "Contact"
 slug: "/contact"
 shortTitle: "Contact"
 category: "Contact"
-color: "purple"
+color: "cornflowerblue"
 custom: true
 cover: "./email4.jpg"
 ---
 
-<div style={{ margin: `0 auto`, maxWidth: `40ch`, padding: `2rem`}}>
-<center>
-<h1 data-testid="page-title">Contact</h1>
+<div style={{ font: `Calibri`, margin: `0 auto`, maxWidth: `40ch`, padding: `2rem`}}>
+  <center>
+    <h1 data-testid="page-title">Contact</h1>
+    <form action="https://formsubmit.co/pmb.html@gmail.com" method="POST">
+      <div class="mb-3">
+        <input type="hidden" id="_next" value="https://day-break.netlify.app/about/"/>  
+        <input type="hidden" id="_subject" value="New Email!"/>
+        <label class="form-label" for="name"><b>Name</b> 🤖 </label>
+        <input class="form-control" name="name" type="text" placeholder="Name" required/>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="emailAddress"><b>Email</b> 📧 </label>
+        <input class="form-control" name="emailAddress" type="email" placeholder="Email Address" required/>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" name="message" type="text" placeholder="How can I help you?" style={{font: `Calibri`, height: `10rem`, width:`15rem`, resize:`none`,margin: `5px`}} required></textarea>
+      </div>
+      <div class="d-grid">
+        <button class="btn btn-primary btn-lg" type="submit">**Submit**</button>
+      </div>
+    </form>
+    <p align="center"><b>Looking forward to hearing from you!</b></p>
+    ![Email icon](https://www.sgvirtualoffice.com/wp-content/uploads/2019/04/mail-forwarding-600x600.jpg)
 
-<form action="https://formsubmit.co/pmb.html@gmail.com" method="POST">
-    <div class="mb-3">
-      <input type="hidden" id="_next" value="http://localhost:8000/about/"/>  
-      <input type="hidden" id="_subject" value="New Email!"/>
-      <label class="form-label" for="name"><b>Name</b> 🤖 </label>
-      <input class="form-control" name="name" type="text" placeholder="Name" required/>
-    </div>
-
-    <div class="mb-3">
-      <label class="form-label" for="emailAddress"><b>Email</b> 📧 </label>
-      <input class="form-control" name="emailAddress" type="email" placeholder="Email Address" required/>
-    </div>
-    <div></div>
-
-    <div class="mb-3">
-      <textarea class="form-control" name="message" type="text" placeholder="How can I help you?" style={{height: `10rem`, width:`15rem`, resize:`none`,margin: `5px`}} required></textarea>
-    </div>
-
-    <div class="d-grid">
-      <button class="btn btn-primary btn-lg" type="submit">**Submit**</button>
-    </div>
-</form>
-
-![Email icon](https://www.sgvirtualoffice.com/wp-content/uploads/2019/04/mail-forwarding-600x600.jpg)
-</center>
+  </center>
 </div>
