@@ -5,10 +5,10 @@ export default class Header extends Component {
   render() {
     let imgWidth, imgHeight;
 
-    if (window.innerWidth >= 700) {
+    if (typeof window !== 'undefined' && window.innerWidth >= 700) {
       imgWidth = 150;
       imgHeight = 150;
-    } else if (window.innerWidth >= 361) {
+    } else if (typeof window !== 'undefined' && window.innerWidth >= 361) {
       imgWidth = 65;
       imgHeight = 65;
     } else {
