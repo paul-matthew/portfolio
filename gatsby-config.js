@@ -10,11 +10,11 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `Day Break Designs`,
-    siteTitleAlt: `Day Break Designs`,
+    siteTitle: `PM Daybreak Designs`,
+    siteTitleAlt: `PM Daybreak Designs`,
     siteHeadline: `Portfolio`,
     siteUrl: `https://day-break.netlify.app/`,
-    siteDescription: `The professional portfolio of Day Break Designs`,
+    siteDescription: `The professional services of PM Daybreak Designs`,
     siteImage: `/about-us-cover-image4.jpg`,
     author: `Paul-Matthew`,
   },
@@ -40,9 +40,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Day Break Designs`,
-        short_name: `Day Break`,
-        description: `Day Break Designs Portfolio`,
+        name: `PM Daybreak Designs`,
+        short_name: `PM Daybreak`,
+        description: `PM Daybreak Designs Portfolio`,
         start_url: `https://day-break.netlify.app/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
