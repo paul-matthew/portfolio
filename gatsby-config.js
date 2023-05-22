@@ -15,7 +15,7 @@ module.exports = {
     siteHeadline: `Portfolio`,
     siteUrl: `https://pmdaybreak.netlify.app/`,
     siteDescription: `The professional services of PM Daybreak Designs`,
-    siteImage: `https://github.com/paul-matthew/portfolio/blob/master/src/%40lekoarts/gatsby-theme-jodie/icons/Logo.png`,
+    siteImage: `https://raw.githubusercontent.com/paul-matthew/portfolio/master/src/%40lekoarts/gatsby-theme-jodie/icons/Logo.png`,
     author: `Paul-Matthew`,
   },
   plugins: [
