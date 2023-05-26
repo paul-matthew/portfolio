@@ -15,7 +15,7 @@ module.exports = {
     siteHeadline: `Website Services`,
     siteUrl: `https://pmdaybreak.netlify.app/`,
     siteDescription: `The professional services of PM Daybreak Designs`,
-    siteImage: `/logo2.png`,
+    siteImage: `/logo2-min.png`,
     siteLanguage: `en`,
     author: `Paul-Matthew`,
   },
