@@ -12,8 +12,8 @@ module.exports = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
     siteTitle: `PM Daybreak Designs`,
     siteTitleAlt: `PM Daybreak Designs`,
-    siteHeadline: `Portfolio`,
-    siteUrl: `https://pmday-break.netlify.app/`,
+    siteHeadline: `Website Services`,
+    siteUrl: `https://pmdaybreak.netlify.app/`,
     siteDescription: `The professional services of PM Daybreak Designs`,
     siteImage: `/og-image.jpg`,
     siteLanguage: `en`,
