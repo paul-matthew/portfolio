@@ -1,0 +1,39 @@
+---
+title: "Mock Projects"
+shortTitle: "Mock Projects"
+category: "Project"
+color: "white"
+cover: "./asset/plane-thumbnail2.jpg"
+date: "2022-10-20-"
+---
+
+import v from './travelvid.mp4';
+import q from './ChezAdjoa.mp4';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
+PM Daybreak Designs has created a wealth of mock projects to further expand our reach and demonstrate to potential clients the range of design possibilities. 
+
+These mock projects showcase our creativity, expertise, and ability to deliver visually stunning and user-friendly websites for various industries and niches.
+
+<div className="carousel-container">
+<Carousel autoPlay infiniteLoop interval={5000}>
+  <div>
+  <a href="https://paul-matthew.github.io/Travel-Whisper/">
+    <figcaption style={{ fontWeight: 'bold' }}>TRAVEL CONSULTATION</figcaption>
+  </a>
+    <video width="100%" height="auto" controls autoPlay muted loop playsInline className="carousel-image" >
+      <source src={v} type="video/mp4" />
+    </video>
+  </div>
+
+  <div>
+    <a href="https://paul-matthew.github.io/Chez-Adjoa/">
+    <figcaption style={{ fontWeight: 'bold' }}>FINE DINING</figcaption>
+  </a>
+    <video width="100%" height="auto" controls autoPlay muted loop playsInline className="carousel-image" >
+      <source src={q} type="video/mp4" />
+    </video>
+  </div>
+</Carousel>
+</div>

@@ -13,7 +13,7 @@ module.exports = {
     siteTitle: `PM Daybreak Designs`,
     siteTitleAlt: `PM Daybreak Designs`,
     siteHeadline: `Website Services`,
-    siteUrl: `https://pmdaybreak.netlify.app/`,
+    siteUrl: `https://pmdaybreak.com/`,
     siteDescription: `The professional services of PM Daybreak Designs`,
     siteImage: `/about-us-cover-image7.jpg`,
     siteLanguage: `en`,
@@ -44,7 +44,7 @@ module.exports = {
         name: `PM Daybreak Designs`,
         short_name: `PM Daybreak`,
         description: `PM Daybreak Designs Portfolio`,
-        start_url: `https://day-break.netlify.app/`,
+        start_url: `https://pmdaybreak.com/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/

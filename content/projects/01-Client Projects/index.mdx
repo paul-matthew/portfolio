@@ -3,26 +3,54 @@ title: "Client Projects"
 shortTitle: "Client Projects"
 category: "Project"
 color: "white"
-cover: "./portfolio-icon3.jpg"
-date: "2022-10-20-"
+cover: "./asset/portfolio-icon3.jpg"
+date: "2022-11-20-"
 ---
 
-PM Daybreak Designs excels in crafting responsive websites tailored to entrepreneurs, empowering them to concentrate on their core products and services.  <br />
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import './carousel.css';
+
+PM Daybreak Designs excels in crafting responsive websites tailored to entrepreneurs, empowering them to concentrate on their core products and services.
 
 We leverage design principles to build visually captivating websites, employing custom coding for intricate projects. Additionally, we harness user-friendly content management systems like WordPress to grant our clients seamless control and easy maintenance.
 
 Here's a glimpse of the websites we are currently developing for our esteemed clients.
 
-<div align="center">
-<a href="https://paul-matthew.github.io/JourneyswithKris/"><figcaption align="center"><b><font size="5">Travel Blog</font></b></figcaption></a>
-![JourneyswithKris](https://i.ibb.co/tsCFFQK/kris-nature.jpg)
+import "./carousel.css";
 
-<a href="https://paul-matthew.github.io/Yanna-Portfolio/"><figcaption align="center"><b><font size="5">Lifestyle & Fitness</font></b></figcaption></a>
-![Yours.Sincerely.Yanna](https://i.ibb.co/1JH6r44/night-yanna.jpg)
+import "./carousel.css";
 
-<a href="https://paul-matthew.github.io/DevineEstheticss/"><figcaption align="center"><b><font size="5">Beauty & Personal Care</font></b></figcaption></a>
-![Devine Estheticss](https://tinyurl.com/bdepzsfu)
+<div className="carousel-container">
+  <Carousel autoPlay infiniteLoop>
+    <div>
+      <a href="https://julie-jpg.netlify.app/">
+        <figcaption align="center"><b><font size="5">Artwork Portfolio</font></b></figcaption>
+      </a>
+      <img src={require("/content/projects/01-Client Projects/asset/Jules-site.jpg").default} alt="JulieJpg" className="carousel-image" />
+    </div>
+  
+    <div>
+      <a href="https://paul-matthew.github.io/Yanna-Portfolio/">
+        <figcaption align="center"><b><font size="5">Lifestyle & Fitness</font></b></figcaption>
+      </a>
+      <img src={require("/content/projects/01-Client Projects/asset/Yanna-site.jpg").default} alt="Yours.Sincerely.Yanna" className="carousel-image" />
+    </div>
+  
+    <div>
+      <a href="https://mystoryawaits.com">
+        <figcaption align="center"><b><font size="5">Travel Consultation</font></b></figcaption>
+      </a>
+      <img src={require("/content/projects/01-Client Projects/asset/Wivine-site.jpg").default} alt="MyStoryAwaits" className="carousel-image" />
+    </div>
 
-<a href="https://mystoryawaits.com"><figcaption align="center"><b><font size="5">Travel Consultation</font></b></figcaption></a>
-![MyStoryAwaits](https://tinyurl.com/4p84t7tj)
+    <div>
+      <a href="https://paul-matthew.github.io/DevineEstheticss/">
+        <figcaption align="center"><b><font size="5">Beauty & Personal Care</font></b></figcaption>
+      </a>
+      <img src={require("/content/projects/01-Client Projects/asset/Dev-site.jpg").default} alt="Devine Estheticss" className="carousel-image" />
+    </div>
+  
+  </Carousel>
 </div>
+
