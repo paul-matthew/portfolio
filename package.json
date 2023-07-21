@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-jodie": "^5.1.0",
+    "framer-motion": "^10.13.0",
     "gatsby": "^5.8.1",
     "gatsby-plugin-manifest": "^5.8.0",
     "gatsby-plugin-netlify": "^5.1.0",

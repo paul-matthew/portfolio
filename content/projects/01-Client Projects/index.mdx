@@ -10,15 +10,23 @@ date: "2022-11-20-"
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './carousel.css';
+import { motion } from 'framer-motion';
 
 PM Daybreak Designs excels in crafting responsive websites tailored to entrepreneurs and established businesses, empowering them to concentrate on their core products and services.
 
 Here's a glimpse of the websites we are currently developing for our esteemed clients.
 
-import "./carousel.css";
-import "./carousel.css";
-
-<div className="carousel-container">
+<motion.div
+  initial={{ opacity: 0, y: 50 }}      
+  animate={{ opacity: 1, y: 0 }}
+  exit={{ opacity: 0, y: -50 }}  
+  transition={{              
+    type: 'spring',
+    damping: 15,
+    stiffness: 200,            
+  }}
+  className="carousel-container"
+>
   <Carousel autoPlay infiniteLoop>
     <div>
       <a href="https://julie-jpg.netlify.app/">
@@ -49,5 +57,5 @@ import "./carousel.css";
     </div>
   
   </Carousel>
-</div>
+</motion.div>
 

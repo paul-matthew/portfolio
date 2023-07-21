@@ -6,9 +6,20 @@ category: "Contact"
 color: "cornflowerblue"
 cover: "./email4.jpg"
 ---
+import { motion } from 'framer-motion';
 
 # Contact
 
+<motion.div
+  initial={{ opacity: 0, y: 50 }}      
+  animate={{ opacity: 1, y: 0 }}
+  exit={{ opacity: 0, y: -50 }}  
+  transition={{              
+    type: 'spring',
+    damping: 15,
+    stiffness: 200,            
+  }}
+>
 <div style={{ 
   margin: '0 auto', 
   maxWidth: '800px', 
@@ -45,3 +56,4 @@ cover: "./email4.jpg"
 
   </center>
 </div>
+</motion.div>

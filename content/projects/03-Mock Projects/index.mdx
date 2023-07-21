@@ -11,11 +11,23 @@ import v from './travelvid.mp4';
 import q from './ChezAdjoa.mp4';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { motion } from 'framer-motion';
 
 PM Daybreak Designs has created a wealth of mock projects to further expand our reach and demonstrate to potential clients the range of design possibilities. 
 
 These mock projects showcase our creativity, expertise, and ability to deliver visually stunning and user-friendly websites for various industries and niches.
 
+<motion.div
+  initial={{ opacity: 0, y: 50 }}      
+  animate={{ opacity: 1, y: 0 }}
+  exit={{ opacity: 0, y: -50 }}  
+  transition={{              
+    type: 'spring',
+    damping: 15,
+    stiffness: 200,            
+  }}
+  className="carousel-container"
+>
 <div className="carousel-container">
 <Carousel autoPlay infiniteLoop interval={5000}>
   <div>
@@ -37,3 +49,4 @@ These mock projects showcase our creativity, expertise, and ability to deliver v
   </div>
 </Carousel>
 </div>
+</motion.div>
