@@ -7,8 +7,8 @@ cover: "./asset/paper-plane.jpg"
 date: "2022-10-20-"
 ---
 
-import v from './travelvid.mp4';
-import q from './ChezAdjoa.mp4';
+import v from './travelvid1.mp4';
+import q from './ChezAdjoa1.mp4';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { motion } from 'framer-motion';
@@ -34,8 +34,9 @@ These mock projects showcase our creativity, expertise, and ability to deliver v
   <a href="https://paul-matthew.github.io/Travel-Whisper/">
     <figcaption style={{ fontWeight: 'bold' }}>TRAVEL CONSULTATION</figcaption>
   </a>
-    <video width="100%" height="auto" controls autoPlay muted loop playsInline className="carousel-image" >
-      <source src={v} type="video/mp4" />
+    <video width="100%" height="auto" controls autoPlay muted loop playsInline preload="auto" className="carousel-image" >
+      {/*<source src={v} type="video/mp4" />*/}
+      <source src="https://res.cloudinary.com/dc5ohptw5/video/upload/v1690040799/travelvid1_ludbs3.mp4" type="video/mp4" />
     </video>
   </div>
 
@@ -43,8 +44,9 @@ These mock projects showcase our creativity, expertise, and ability to deliver v
     <a href="https://paul-matthew.github.io/Chez-Adjoa/">
     <figcaption style={{ fontWeight: 'bold' }}>FINE DINING</figcaption>
   </a>
-    <video width="100%" height="auto" controls autoPlay muted loop playsInline className="carousel-image" >
-      <source src={q} type="video/mp4" />
+    <video width="100%" height="auto" controls autoPlay muted loop playsInline preload="auto" className="carousel-image" >
+      {/*<source src={q} type="video/mp4" />*/}
+      <source src="https://res.cloudinary.com/dc5ohptw5/video/upload/v1690040818/ChezAdjoa1_azwbd8.mp4" type="video/mp4" />
     </video>
   </div>
 </Carousel>
