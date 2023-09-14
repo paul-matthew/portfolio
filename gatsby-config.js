@@ -12,7 +12,7 @@ module.exports = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
     siteTitle: `PM Daybreak Designs`,
     siteTitleAlt: `PM Daybreak Designs`,
-    siteHeadline: `Website Services`,
+    siteHeadline: `Website Design Services`,
     siteUrl: `https://pmdaybreak.com/`,
     siteDescription: `The professional services of PM Daybreak Designs`,
     siteImage: `/about-us-cover-image7.jpg`,
