@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from './Logo.png';
+import Logo from './PMlogo.png';
 
 export default class Header extends Component {
   constructor(props) {
@@ -7,7 +7,7 @@ export default class Header extends Component {
 
     this.state = {
       imgWidth: 50,
-      imgHeight: 50
+      imgHeight: 50,
     };
   }
 
@@ -36,7 +36,7 @@ export default class Header extends Component {
 
     this.setState({
       imgWidth,
-      imgHeight
+      imgHeight,
     });
   };
 
@@ -46,7 +46,15 @@ export default class Header extends Component {
     return (
       <div className="row">
         <div className="Logo">
-          <img src={Logo} width={imgWidth} height={imgHeight} />
+          <img
+            src={Logo}
+            width={imgWidth}
+            height={imgHeight}
+            style={{
+              border: '2px solid black', // Add a black border
+              boxShadow: '2px 2px 5px black', // Add a black box shadow
+            }}
+          />
         </div>
       </div>
     );
