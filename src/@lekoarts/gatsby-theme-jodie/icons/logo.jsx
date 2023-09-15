@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from './PMlogo.png';
+import Logo from './PMlogo4.png';
 
 export default class Header extends Component {
   constructor(props) {
