@@ -52,7 +52,7 @@ export default class Header extends Component {
             height={imgHeight}
             style={{
               border: '2px solid black', // Add a black border
-              boxShadow: '2px 2px 5px black', // Add a black box shadow
+              boxShadow: '2px 2px 5px gray', // Add a black box shadow
             }}
           />
         </div>
