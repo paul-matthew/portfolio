@@ -31,22 +31,22 @@ import { motion } from 'framer-motion';
 }}>
   <center>
     <form action="https://formsubmit.co/pmb.html@gmail.com" method="POST">
-      <input type="hidden" id="_next" value="https://day-break.netlify.app/about/"/>  
+      <input type="hidden" id="_next" value="https://pmdaybreak.com/"/>  
       <input type="hidden" id="_subject" value="New Email!"/>
       <div style={{ marginBottom: '1rem' }}>
-        <label style={{ fontWeight: 'bold', display: 'block' }} for="name">Name 🤖 </label>
+        <label style={{ fontWeight: 'bold', display: 'block' }} htmlFor="name">Name 🤖 </label>
         <input style={{ padding: '0.5rem', width: '100%', border: '2px solid #ccc', borderRadius: '4px' }} name="name" type="text" placeholder="Name" required/>
       </div>
       <div style={{ marginBottom: '1rem' }}>
-        <label style={{ fontWeight: 'bold', display: 'block' }} for="emailAddress">Email 📧 </label>
+        <label style={{ fontWeight: 'bold', display: 'block' }} htmlFor="emailAddress">Email 📧 </label>
         <input style={{ padding: '0.5rem', width: '100%', border: '2px solid #ccc', borderRadius: '4px' }} name="emailAddress" type="email" placeholder="Email Address" required/>
       </div>
       <div style={{ marginBottom: '1rem' }}>
-        <label style={{ fontWeight: 'bold', display: 'block' }} for="message">Message</label>
+        <label style={{ fontWeight: 'bold', display: 'block' }} htmlFor="message">Message</label>
         <textarea style={{ padding: '0.5rem', width: '100%', border: '2px solid #ccc', borderRadius: '4px', resize: 'none' }} name="message" type="text" placeholder="How can I help you?" rows="5" required></textarea>
       </div>
-      <div class="d-grid">
-        <button class="btn btn-primary btn-lg" type="submit" style={{ fontWeight: 'bold' }}>Submit</button>
+      <div className="d-grid">
+        <button className="btn btn-primary btn-lg" type="submit" style={{ fontWeight: 'bold' }}>Submit</button>
       </div>
     </form>
     <p style={{ fontWeight: 'bold', marginTop: '1rem' }}>Looking forward to hearing from you! </p>
