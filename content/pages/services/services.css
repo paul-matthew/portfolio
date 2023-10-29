@@ -2,7 +2,7 @@
 
 /* Style the dropdown button */
 .dropbtn {
-    background-color: black;
+    background-color: rgb(50, 6, 111);
     color: white;
     padding: 12px;
     font-size: 16px;
@@ -42,7 +42,7 @@
     display: none;
     position: absolute;
     left:0;
-    background-color: rgb(50, 6, 111);
+    background-color: lightgrey;
     min-width: 90vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -88,7 +88,7 @@
     margin: 0 auto;
     padding: 10px 20px;
     width: 250px;
-    background-color: rgb(50, 6, 111);
+    background-color: rgb(90, 66, 191);
     color: #fff;
     text-decoration: none;
     border: 1px solid black;
