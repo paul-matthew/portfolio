@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from './PMlogo4.png';
+import Logo from './logo-new.png';
 
 export default class Header extends Component {
   constructor(props) {
@@ -52,7 +52,7 @@ export default class Header extends Component {
             height={imgHeight}
             style={{
               border: '2px solid black', // Add a black border
-              boxShadow: '2px 2px 5px gray', // Add a black box shadow
+              boxShadow: '1px 1px 2px gray', // Add a black box shadow
             }}
           />
         </div>
