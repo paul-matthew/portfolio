@@ -11,22 +11,26 @@
     min-width: 60%;
     border: solid black;
     box-shadow: 2px 2px 4px #888888;
+    border-radius: 5px;
+
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropcontainer {
     position: relative;
-    display: block;
-    /* justify-content: start;
-    align-items: start;
+    display: inline-block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    display: flex; */
+    display: flex;
+    margin: 0 auto;
 }
 
 /* Dropdown container */
 .dropdown {
     display: flex;
-    margin: 10px auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -39,20 +43,22 @@
 .dropdown-content {
     display: none;
     position: absolute;
+    top:40px;
     left:0;
-    background-color: lightgrey;
+    background-color: none;
     min-width: 50vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 /* Show the dropdown content when the button is hovered over */
-.dropdown:hover .dropdown-content {
+.dropbtn:hover + .dropdown-content {
     display: block;
 }
-.dropdown:hover .dropdown-content{
-    filter: contrast(1.2) brightness(1.1);
-}
+.dropbtn:hover {
+    transform: scale(1.1);
+    background-color: black;
+  }
 
 /* Style the list items */
 .dropdown-content ul {
@@ -70,7 +76,7 @@
     text-decoration: none;
     display: block;
     color: black;
-    width: 50%; /* Show two items per row */
+    width: 100%; /* Show two items per row */
     border:solid black;
 
 }
