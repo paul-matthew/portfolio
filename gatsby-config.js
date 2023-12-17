@@ -15,7 +15,7 @@ module.exports = {
     siteHeadline: `Website Design Services`,
     siteUrl: `https://pmdaybreak.com/`,
     siteDescription: `The professional services of PM Daybreak Designs`,
-    siteImage: `/about-us-cover-image7.jpg`,
+    siteImage: `/services3.png`,
     siteLanguage: `en`,
     author: `Paul-Matthew`,
   },
