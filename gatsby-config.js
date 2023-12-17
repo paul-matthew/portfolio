@@ -15,7 +15,7 @@ module.exports = {
     siteHeadline: `Website Design Services`,
     siteUrl: `https://pmdaybreak.com/`,
     siteDescription: `The professional website deisgn services of PM Daybreak Designs, Toronto, Canada`,
-    siteImage: `/services3.png`,
+    siteImage: `/services4.png`,
     siteLanguage: `en`,
     author: `Paul-Matthew`,
   },
