@@ -28,7 +28,7 @@ module.exports = {
           { name: `About`, slug: `/about` },
           { name: `Projects`, slug: `/projects` },
           { name: `Services`, slug: `/services` },
-          {name: `Contact`, slug: `/contact` }
+          {name: `Contact`, slug: `/contact` },
         ],
       },
     },
