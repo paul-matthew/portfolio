@@ -114,6 +114,7 @@
     border-radius: 5px;
     box-shadow: 2px 2px 4px #888888;
     transition: all 0.3s ease;
+    font-size:larger;
   }
   
   .button a {
@@ -124,8 +125,9 @@
   
   .button:hover {
     transform: scale(1.1);
-    color: black;
+    color: white;
     background-color: black;
+    cursor: pointer;
   }
   
   /* ABOUT */
