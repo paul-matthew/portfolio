@@ -22,37 +22,65 @@ import { motion } from 'framer-motion';
   }}
 >
 
-### Website Development
-
-Empower your business in the digital landscape with our dedicated Website Development Services.
+Empower your business in the digital landscape with our industry leading services
 
 <div className='dropcontainer'>
+
     <div className="dropdown">
-    <button className="dropbtn">What We Offer</button>
-    <div className="dropdown-content" id="offerContent">
-        <ul>
-        <li><b style={{color:'purple'}}>Website design </b>of custom landing pages, portfolios, and comprehensive solutions</li>
-        <li><b style={{color:'purple'}}>Performance assessment</b> reports and enhancements for existing websites</li>
-        <li><b style={{color:'purple'}}>Responsive design</b> for seamless experiences across devices</li>
-        <li><b style={{color:'purple'}}>Integration of your content</b>: photos, videos, and social media</li>
-        <li><b style={{color:'purple'}}>SEO optimization</b> for improved search engine visibility</li>
-        <li><b style={{color:'purple'}}>Project Management</b> expertise to elevate your business</li>
-        </ul>
-    </div>
+        <img src={require("/content/pages/services/ourservices1.jpg").default} alt="Project Management" className="dropimg" />    
+        <div className="dropdown-content">
+            <p className="title">Project Management</p>
+            <ul>
+                <li><b style={{color:'#FF00FF'}}>End-to-End Project Oversight</b> — from initial planning to seamless execution and final handover.</li>
+            </ul>
+        </div>
     </div>
 
     <div className="dropdown">
-    <button className="dropbtn">What to Expect</button>
-    <div className="dropdown-content" id="expectContent">
-        <ul>
-        <li>Clear identification of <b style={{color:'purple'}}>goals and requirements</b></li>
-        <li>Detailed <b style={{color:'purple'}}>schedule and milestone</b> development</li>
-        <li>Regular <b style={{color:'purple'}}>design progress</b> meetings to integrate your feedback</li>
-        <li><b style={{color:'purple'}}>Tailored approaches</b>: Custom web development or utilizing platforms like WordPress</li>
-        </ul>
+        <img src={require("/content/pages/services/ourservices4.jpg").default} alt="Social Media Marketing" className="dropimg" />    
+        <div className="dropdown-content">
+            <p className="title">Social Media Marketing</p>
+            <ul>
+                <li><b style={{color:'#FF00FF'}}>Strategic Social Media Management</b> — building and engaging your audience to drive business growth.</li>
+            </ul>
+        </div>
     </div>
+
+    <div className="dropdown">
+        <img src={require("/content/pages/services/ourservices2.jpg").default} alt="Website Design" className="dropimg" />    
+        <div className="dropdown-content">
+            <p className="title">Website Design</p>
+            <ul>
+                <li><b style={{color:'#FF00FF'}}>Custom Website Design</b> — crafting a professional, high-converting online presence that reflects your brand’s credibility.</li>
+            </ul>
+        </div>
     </div>
+
+    <div className="dropdown">
+        <img src={require("/content/pages/services/ourservices3.jpg").default} alt="SEO & Performance" className="dropimg" />    
+        <div className="dropdown-content">
+            <p className="title">SEO & Performance</p>
+            <ul>
+                <li><b style={{color:'#FF00FF'}}>SEO & Performance Optimization</b> — boosting your online visibility and maximizing traffic for long-term success.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {/* <div className="dropdown">
+        <img src={require("/content/pages/services/ourservices2.jpg").default} alt="What We Offer" className="dropimg" />    
+        <div className="dropdown-content">
+            <p className="title">What to Expect</p>
+            <ul>
+                <li>Clear identification of <b style={{color:'purple'}}>goals and requirements</b></li>
+                <li>Detailed <b style={{color:'purple'}}>schedule and milestone</b> development</li>
+                <li>Regular <b style={{color:'purple'}}>design progress</b> meetings to integrate your feedback</li>
+                <li><b style={{color:'purple'}}>Tailored approaches</b>: Custom web development or utilizing platforms like WordPress</li>
+            </ul>
+        </div>
+    </div>*/}
 </div>
+
 
 
 ### Pricing

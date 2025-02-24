@@ -10,14 +10,17 @@ import v from './introvid7.mp4';
 import '../services/services.css';
 
 # About Us
+<div className="team-container">
+  <div className="team-description">
+    Hey there! Welcome to <b>PM Daybreak Designs</b>. 
 
-Hey there! Welcome to <b>PM Daybreak Designs</b>. 
+  Our company's journey commenced with website design work undertaken as passion projects. 
+  The name 'Daybreak' signifies new beginnings, liberation, and embodies the genesis of pioneering digital solutions.
 
-Our company's journey commenced with website design work undertaken as passion projects, meticulously crafted in late nights and into the early hours of the morning. 
-<br/><br/>This progression culminated in the establishment and modest ascent of PM Daybreak Designs. The name 'Daybreak' signifies new beginnings, liberation, and embodies the genesis of pioneering digital solutions.
-
-At PM Daybreak Designs, we have extensive experience in the field of project management, including gathering requirements, planning, design, and implementation — all the components that make up a successful project lifecycle.
-
+  At <b>PM Daybreak Designs</b>, we have extensive experience in the field of project management, including gathering requirements, planning, design, and implementation — all the components that make up a successful project lifecycle.
+  </div>
+</div>
+{/*
 <motion.div
   initial={{ opacity: 0, y: 50 }}      
   animate={{ opacity: 1, y: 0 }}
@@ -28,18 +31,44 @@ At PM Daybreak Designs, we have extensive experience in the field of project man
     stiffness: 200,            
   }}
 >
-{/*<video type='video/mp4' style={{ maxWidth: '50%', marginRight: '1rem', float: 'left', clear: 'both', height: 'auto' }} controls autoplay="autoplay" muted loop playsinline="playsinline">
-  <source src={v} />
-</video>*/}
 <img src={require("/content/pages/about/pm-headshot.gif").default} alt="PM headshot" style={{ maxWidth: '50%', marginRight: '1rem', float: 'left', clear: 'both', height: 'auto' }} />
 </motion.div>
+*/}
+
+# Our Team
 
 
-Paul Matthew is the founder of PM Daybreak Designs and is a professional with expertise in engineering🚂, web development, project management, and entrepreneurship. 
+<div className="team-container">
+  <div className="team-members">
+    <div className="member">
+      <img src={require("/content/pages/about/pm.png").default} alt="Paul Matthew" className="team-img" />
+      <div className="team-name">Paul Matthew</div>
+      <p className="team-position">Project Manager</p>
+    </div>
 
-At PM Daybreak Designs, creating new designs and solving complex problems with an engineering mindset is more than just a job - it's a passion. We are confident that we can help you bring your digital dreams to life.
-We are thrilled at the prospect of collaborating with you!
+    <div className="member">
+      <img src={require("/content/pages/about/lo.jpeg").default} alt="Laurene Adjoa" className="team-img" />
+      <div className="team-name">Laurene Adjoa</div>
+      <p className="team-position">Project Advisor</p>
+    </div>
+  </div>
 
+  <div className="team-description">
+    <div>
+      Paul Matthew is the founder of <b>PM Daybreak Designs</b> and is a professional with expertise in engineering, web development, project management, and entrepreneurship.
+    </div>
+    <div>
+      At <b>PM Daybreak Designs</b>, creating new designs and solving complex problems with an engineering mindset is more than just a job - it's a passion. We are confident that we can help you bring your digital dreams to life.
+    </div>
+    <div>
+      We are thrilled at the prospect of collaborating with you!
+    </div>
+  </div>
+</div>
+
+
+
+{/*
 ## Our Company Framework
 
 **PM Daybreak Designs:** As a website design agency, PM Daybreak Designs is your digital partner, specializing in comprehensive web solutions for diverse industries and clients.
@@ -51,6 +80,8 @@ We are thrilled at the prospect of collaborating with you!
 ---
 
 You can check out <a href='https://daybreaktravel.netlify.app/' style={{color:'purple'}}><b>Daybreak Travel</b></a> to learn more about our vacation rental property services.
+
+*/}
 
 <div className="button">
   <a href="/contact">REQUEST A QUOTE</a>
